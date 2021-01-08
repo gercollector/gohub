@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background: url(../images/bg1.png) no-repeat center;*/
+    /*background-size: cover;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+/*################################### HEADER ###################################*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.menu-list {
+    display: inline-block;
+    margin-left: 53px;
+}
+
+.menu-list:last-child {
+    margin: 0 20px 0 33px;
+}
+
+.menu-list-item {
+    font-size: 19px;
+    color: #32325d;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 42px;
+    background: #845cff;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+/*################################### HEADER ###################################*/
+
+
+/*################################### HERO ###################################*/
+
+#hero {
+    padding-top: 130px;
+}
+
+.hero-title {
+    padding-bottom: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #32325d;
+}
+
+.hero-subtitle {
+    max-width: 453px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    width: 142px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.questions {
+    font-size: 19px;
+    color: #32325d;
+    margin-left: 30px;
+}
+
+/*################################### HERO ###################################*/
+
+
+/*################################### STABILITY ###################################*/
+
+#stability {
+    padding-top: 130px;
+}
+
+.shadow-box {
+    box-shadow: -30px 32px 77px -72px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.stability-box-1 {
+    max-width: 525px;
+    padding-top: 220px;
+}
+
+.stability-description {
+    font-size: 23px;
+    color: #525f7f;
+}
+
+.stability-box-2 {
+    max-width: 436px;
+    margin: 64px 0 0 59px;
+}
+
+.stability-text-title {
+    margin: 50px 0 25px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #32325d;
+}
+
+.stability-text-description {
+    font-size: 18px;
+    color: #525f7f;
+}
+
+.text-padding {
+    margin-bottom: 90px;
+}
+
+/*################################### STABILITY ###################################*/
+
+
+/*################################### PROOF ###################################*/
+
+#proof {
+    padding: 0 0 250px;
+    margin: 190px 0 200px;
+    background: url(../images/BG2.png) no-repeat bottom;
+}
+
+.proof-text {
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+.proof-title {
+    font-weight: normal;
+    font-size: 48px;
+    color: #32325d;
+    margin-bottom: 35px;
+}
+
+.proof-subtitle {
+    font-size: 23px;
+    color: #525f7f;
+}
+
+.grid-images {
+    padding-bottom: 170px;
+}
+
+.grid-images:last-child {
+    padding: 0;
+}
+
+.box {
+    text-align: center;
+}
+
+.box-title {
+    font-size: 20px;
+    color: #212240;
+    margin: 40px 0 17px;
+}
+
+.text-description {
+    font-size: 16px;
+    color: #525f7f;
+    margin: 0;
+}
+
+/*################################### PROOF ###################################*/
+
+
+/*################################### SAFETY ###################################*/
+
+.safety-title {
+    font-weight: normal;
+    font-size: 48px;
+    color: #32325d;
+    margin-bottom: 35px;
+}
+
+.text-description-safety {
+    font-size: 23px;
+    color: #525f7f;
+    margin-bottom: 50px;
+}
+
+.drive-subtitle {
+    font-size: 30px;
+    font-weight: normal;
+    color: #32325d;
+    margin-bottom: 25px;
+}
+
+.drive-description {
+    font-size: 16px;
+    color: #525f7f;
+    margin-bottom: 50px;
+}
+
+.padding {
+    padding-bottom: 250px;
+}
+
+/*################################### SAFETY ###################################*/
+
+
+/*################################### FINANCES ###################################*/
+
+#finances {
+    padding-top: 300px;
+    background: url(../images/illustrations.png) no-repeat bottom right;
+}
+
+.finance-block {
+    max-width: 660px;
+}
+
+.finance-description {
+    margin-bottom: 155px;
+}
+
+.list-title {
+    font-size: 30px;
+    color: #32325d;
+    margin-bottom: 55px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #32325d;
+    margin-bottom: 35px;
+}
+
+.list-item:last-child {
+    margin: 0;
+}
+
+.list-item svg {
+    margin-right: 18px;
+}
+
+#list {
+    padding: 100px 0 200px;
+}
+
+/*################################### FINANCES ###################################*/
