@@ -5,6 +5,10 @@ body {
     /*background-size: cover;*/
 }
 
+::selection {
+    background: #ffb7b7;
+}
+
 a {
     text-decoration: none;
 }
@@ -255,3 +259,70 @@ nav {
 }
 
 /*################################### FINANCES ###################################*/
+
+
+/*################################### FOOTER ###################################*/
+
+footer {
+    background: #212240;
+    font-size: 16px;
+    color: #d3d3d9;
+    padding-top: 150px;
+}
+
+.footer-menu {
+    padding-bottom: 130px;
+}
+
+.footer-logo svg {
+    margin-bottom: 55px;
+}
+
+.phone-number {
+    margin: 0;
+}
+
+.email {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.footer-box p a {
+    color: #d3d3d9;
+}
+
+.about {
+    margin-bottom: 27px;
+}
+
+.offering {
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.footer-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.footer-admin-title {
+    font-weight: normal;
+    color: #555377;
+}
+
+.footer-admin ul {
+    margin: 0;
+}
+
+.footer-admin ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.footer-admin ul li a {
+    color: #555377;
+}
+
+/*################################### FOOTER ###################################*/
