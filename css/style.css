@@ -15,6 +15,11 @@ a {
 
 /*################################### HEADER ###################################*/
 
+.background-gohub {
+    background: url(../images/bg1.png) no-repeat center;
+    background-size: cover;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -112,7 +117,7 @@ nav {
 /*################################### HERO ###################################*/
 
 #hero {
-    padding-top: 130px;
+    padding-bottom: 340px;
 }
 
 .hero-content {
@@ -120,7 +125,7 @@ nav {
 }
 
 .hero-title {
-    padding-bottom: 50px;
+    margin: 200px 0 45px;
     font-size: 48px;
     font-weight: bold;
     color: #32325d;
@@ -149,7 +154,7 @@ nav {
 /*################################### STABILITY ###################################*/
 
 #stability {
-    padding-top: 130px;
+    margin-top: -230px;
 }
 
 .shadow-box {
