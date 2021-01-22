@@ -2,7 +2,7 @@
 
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
 
     .mobile-btn {
         display: flex;
@@ -15,8 +15,12 @@
     }
 
     .menu .menu-list {
-        margin: 10px 0 0;
+        margin: 15px 0 0;
         text-align: center;
+    }
+
+    .logo {
+        z-index: 10;
     }
 
     .show-menu {
@@ -29,8 +33,16 @@
         height: 100%;
         left: 0;
         top: 0;
-        background: #999999;
+        background: #f2f0fd;
         z-index: 9;
+        padding: 0;
+    }
+
+    .show-menu .menu-list-item {
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
     #hero {
@@ -180,14 +192,144 @@
 
 }
 
-@media (min-width: 576px) and (max-width: 768px ) {
+@media (max-width: 767.98px ) {
+    .hero-title {
+        padding: 160px 0 45px;
+    }
+
+    .hero-subtitle {
+        font-size: 19px;
+    }
+
+    .safety-title {
+        font-size: 27px;
+    }
+
+    .stability-text-title {
+        font-size: 23px;
+    }
+
+    .stability-box-2 {
+        margin: 64px 0 0 40px;
+    }
+
+    #proof {
+        padding: 0 0 110px;
+        margin: 170px 0 100px;
+    }
+
+    .proof-subtitle {
+        font-size: 18px;
+    }
+
+    #proof .box {
+        padding-bottom: 15px;
+    }
+
+    .grid-images {
+        padding-bottom: 50px;
+    }
+
+    .text-description-safety {
+        font-size: 17px;
+    }
+
+    .padding {
+        padding-bottom: 90px;
+    }
+
+    #safety .box img {
+        width: 255px;
+    }
+
+    #finances {
+        padding-top: 150px;
+    }
+
+    #list {
+        padding: 50px 0;
+    }
+
+    .list-title {
+        font-size: 24px;
+    }
+
+    .list-item {
+        font-size: 11px;
+    }
+
+    footer {
+        padding-top: 80px;
+    }
 
 }
 
-@media (min-width: 376px) and (max-width: 575px ) {
+@media (max-width: 575.98px ) {
+    .hero-title {
+        padding: 135px 0 15px;
+        font-size: 37px;
+    }
 
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .stability-box-1 {
+     padding-top: 0;
+    }
+
+    .stability-description {
+        font-size: 18px;
+    }
+
+    #proof {
+        margin: 90px 0 100px;
+    }
+
+    .grid-images:nth-last-child(-n+2){
+        display: none;
+    }
+
+    #finances {
+        padding-top: 120px;
+        margin-top: 30px;
+    }
+
+    .list-item {
+        font-size: 13px;
+    }
+
+    #list {
+        padding: 0;
+        margin: 0 0 35px;
+    }
+
+    .footer-menu {
+        padding-bottom: 55px;
+    }
+
+    .about {
+        margin-bottom: 9px;
+        font-size: 13px;
+    }
+
+    .offering {
+        margin-bottom: 15px;
+    }
+
+    .offering:first-child {
+        margin-top: 20px;
+    }
+
+    .offering:last-child {
+        margin-bottom: 20px;
+    }
+
+    .footer-admin {
+        padding-bottom: 55px;
+    }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375.9px) {
 
 }

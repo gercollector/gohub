@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    /*background: url(../images/bg1.png) no-repeat center;*/
-    /*background-size: cover;*/
 }
 
 ::selection {
@@ -21,9 +19,19 @@ a {
 }
 
 header {
-    position: sticky;
-    top: 0;
-    background: #ffffff;
+    position: absolute;
+    width: 100%;
+}
+
+.header-sticky.sticky-bar {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to right, #ffffff, #f2f0fd);
+    box-shadow: 0 10px 15px rgba(25,25,25,0.1);
+}
+
+.header-sticky.sticky-bar nav {
+    padding: 15px 0;
 }
 
 nav {
@@ -33,9 +41,23 @@ nav {
     padding: 25px 0;
 }
 
+.menu {
+    margin: 0;
+}
+
 .menu-list {
+    position: relative;
     display: inline-block;
     margin-left: 53px;
+}
+
+.menu-list-item:hover:before {
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #845cff;
+    width: calc(100% + 10px);
+    bottom: -10px;
+    left: -5px;
 }
 
 .menu-list:last-child {
@@ -46,6 +68,15 @@ nav {
     font-size: 19px;
     color: #32325d;
     font-weight: bold;
+}
+
+.menu-list-item:hover {
+    color: #7d71ff;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    background: #A79DFF;
 }
 
 .button {
@@ -114,10 +145,12 @@ nav {
 /*################################### HEADER ###################################*/
 
 
+
+
 /*################################### HERO ###################################*/
 
 #hero {
-    padding-bottom: 340px;
+    padding-bottom: 380px;
 }
 
 .hero-content {
@@ -125,7 +158,7 @@ nav {
 }
 
 .hero-title {
-    margin: 200px 0 45px;
+    padding: 200px 0 45px;
     font-size: 48px;
     font-weight: bold;
     color: #32325d;
@@ -148,6 +181,10 @@ nav {
     margin-left: 30px;
 }
 
+.questions:hover {
+    color: #845cff;
+}
+
 /*################################### HERO ###################################*/
 
 
@@ -160,6 +197,7 @@ nav {
 .shadow-box {
     box-shadow: -30px 32px 77px -72px rgba(0,0,0,0.2);
     border-radius: 10px;
+    background: #ffffff;
 }
 
 .stability-box-1 {
@@ -288,6 +326,9 @@ nav {
     padding-bottom: 250px;
 }
 
+.safety-img {
+    width: 100%;
+}
 
 /*################################### SAFETY ###################################*/
 
@@ -398,6 +439,10 @@ footer {
 
 .footer-admin ul li a {
     color: #555377;
+}
+
+.footer-box p a:hover, .phone-number:hover {
+    color: #999999;
 }
 
 /*################################### FOOTER ###################################*/
