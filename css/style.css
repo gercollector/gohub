@@ -51,6 +51,16 @@ nav {
     margin-left: 53px;
 }
 
+.menu-list-item:before {
+    content: "";
+    position: absolute;
+    border-bottom: none;
+    width: 0;
+    bottom: -10px;
+    left: -5px;
+    transition: width .3s;
+}
+
 .menu-list-item:hover:before {
     content: '';
     position: absolute;
@@ -58,6 +68,10 @@ nav {
     width: calc(100% + 10px);
     bottom: -10px;
     left: -5px;
+}
+
+.menu-list-item:before:last-child:hover {
+    border-bottom: none;
 }
 
 .menu-list:last-child {
@@ -68,6 +82,7 @@ nav {
     font-size: 19px;
     color: #32325d;
     font-weight: bold;
+    transition: .3s;
 }
 
 .menu-list-item:hover {
